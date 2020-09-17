@@ -3,7 +3,10 @@
 
   <h1>2222222</h1>
   <div>
-    <Button @click="onClick">哈哈</Button>
+    <Button>默认</Button>
+    <Button theme="button">哈哈</Button>
+    <Button theme="link">哈哈</Button>
+    <Button theme="text">哈哈</Button>
   </div>
 </template>
 
