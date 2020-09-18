@@ -1,12 +1,18 @@
 <template>
 <div> button</div>
-
   <h1>2222222</h1>
   <div>
     <Button>默认</Button>
     <Button theme="button">哈哈</Button>
     <Button theme="link">哈哈</Button>
     <Button theme="text">哈哈</Button>
+  </div>
+  <h1>2222222</h1>
+
+  <div>
+    <Button size="big">哈哈</Button>
+    <Button>默认</Button>
+    <Button size="small">哈哈</Button>
   </div>
 </template>
 
@@ -24,6 +30,3 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
