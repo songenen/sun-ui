@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
-    </list>
+    <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +55,7 @@
       <workItem from="1600225067458" duration="4651000" />
       <workItem from="1600351950143" duration="3934000" />
       <workItem from="1600398038444" duration="11736000" />
-      <workItem from="1600435245697" duration="803000" />
+      <workItem from="1600435245697" duration="1196000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue router">
       <created>1600151585093</created>
@@ -298,7 +295,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600431734226</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="实现下划线滑动">
+      <created>1600436619292</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1600436619292</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -309,7 +313,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="实现aside切换" />
     <MESSAGE value="topnav 响应式" />
     <MESSAGE value="完善aside切换逻辑" />
     <MESSAGE value="路由切换后 关闭aside" />
@@ -334,7 +337,8 @@
     <MESSAGE value="添加teleport" />
     <MESSAGE value="添加 Tab和Tabs + css" />
     <MESSAGE value="vue3小bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="vue3小bug" />
+    <MESSAGE value="实现下划线滑动" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现下划线滑动" />
   </component>
   <component name="WindowStateProjectService">
     <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1600431733576">
