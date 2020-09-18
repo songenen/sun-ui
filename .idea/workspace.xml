@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ButtonDemo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ButtonDemo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Button.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Button.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
       <workItem from="1600224957597" duration="94000" />
       <workItem from="1600225067458" duration="4651000" />
       <workItem from="1600351950143" duration="3934000" />
-      <workItem from="1600398038444" duration="1712000" />
+      <workItem from="1600398038444" duration="2013000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue router">
       <created>1600151585093</created>
@@ -241,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600400000671</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="theme+size css">
+      <created>1600400292677</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1600400292677</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -252,7 +259,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="初始化vue router" />
     <MESSAGE value="搭建html模块" />
     <MESSAGE value="topnav 样式更新" />
     <MESSAGE value="topnav 组件封装好了" />
@@ -277,13 +283,14 @@
     <MESSAGE value="css最小影响原则" />
     <MESSAGE value="支持theme属性" />
     <MESSAGE value="size 属性" />
-    <option name="LAST_COMMIT_MESSAGE" value="size 属性" />
+    <MESSAGE value="theme+size css" />
+    <option name="LAST_COMMIT_MESSAGE" value="theme+size css" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1600399999465">
+    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1600400292106">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600399999465" />
+    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600400292106" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1600398219715">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
