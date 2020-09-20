@@ -17,7 +17,7 @@
 <script lang="ts">
 import Button from '../lib/Button.vue'
 import 'prismjs';
-import 'prismjs/themes/prism.css'
+import 'prismjs/themes/prism-okaidia.css'
 import {
   computed,
   ref
@@ -29,7 +29,7 @@ export default {
   },
 
   props: {
-    component: Objecty
+    component: Object
   },
   setup(props) {
     const html = computed(() => {
