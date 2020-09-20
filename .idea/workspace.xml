@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Doc.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Doc.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/GetStarted.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/GetStarted.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Install.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Install.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +66,7 @@
       <workItem from="1600435245697" duration="3025000" />
       <workItem from="1600511814528" duration="5344000" />
       <workItem from="1600574531413" duration="603000" />
-      <workItem from="1600575148057" duration="459000" />
+      <workItem from="1600575148057" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="初始化vue router">
       <created>1600151585093</created>
@@ -379,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600575334617</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="添加选中高亮">
+      <created>1600575670206</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1600575670206</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -390,7 +401,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="创建button组件" />
     <MESSAGE value="添加button click" />
     <MESSAGE value="添加theme" />
     <MESSAGE value="css最小影响原则" />
@@ -415,13 +425,14 @@
     <MESSAGE value="更换按钮的样式" />
     <MESSAGE value="添加返回首页" />
     <MESSAGE value="添加路由" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加路由" />
+    <MESSAGE value="添加选中高亮" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加选中高亮" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1600575333329">
+    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1600575669580">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600575333329" />
+    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600575669580" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1600516658227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
