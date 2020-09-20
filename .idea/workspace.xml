@@ -61,14 +61,7 @@
       <workItem from="1600435245697" duration="3025000" />
       <workItem from="1600511814528" duration="5344000" />
       <workItem from="1600574531413" duration="603000" />
-      <workItem from="1600575148057" duration="7702000" />
-    </task>
-    <task id="LOCAL-00005" summary="home css">
-      <created>1600154688181</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1600154688181</updated>
+      <workItem from="1600575148057" duration="8037000" />
     </task>
     <task id="LOCAL-00006" summary="aside html 初始化">
       <created>1600154996417</created>
@@ -406,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600610069177</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="优化demo">
+      <created>1600610535488</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1600610535488</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -417,7 +417,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="完成Button组件" />
     <MESSAGE value="创建Dialog组件" />
     <MESSAGE value="dialog 添加 visible" />
     <MESSAGE value="添加teleport" />
@@ -442,7 +441,8 @@
     <MESSAGE value="展示源代码" />
     <MESSAGE value="小优化" />
     <MESSAGE value="源代码添加语言颜色和背景" />
-    <option name="LAST_COMMIT_MESSAGE" value="源代码添加语言颜色和背景" />
+    <MESSAGE value="优化demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化demo" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="232" key="#Notifications" timestamp="1600608085132">
@@ -453,10 +453,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="739" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600577116324" />
-    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1600610068606">
+    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1600610534940">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600610068606" />
+    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1600610534940" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1600516658227">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
