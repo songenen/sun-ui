@@ -3,10 +3,10 @@
     <div class="topnavAndBanner">
       <Topnav />
       <div class="banner">
-        <h1>轱辘UI</h1>
-        <h2>一个厉害的 UI 框架</h2>
+        <h1>Sun-UI</h1>
+        <h2>一个极简的 UI 框架</h2>
         <p class="actions">
-          <a href="https://github.com">GitHub</a>
+          <a href="https://github.com/songenen/sun-ui">GitHub</a>
           <router-link to="/doc">开始</router-link>
         </p>
       </div>
@@ -18,14 +18,14 @@
             <use xlink:href="#icon-vue"></use>
           </svg>
           <h3>基于 Vue 3</h3>
-          <p>骄傲地使用了 Vue 3 Composition API</p>
+          <p>使用了 Vue 3 Composition API</p>
         </li>
         <li>
           <svg>
             <use xlink:href="#icon-ts"></use>
           </svg>
           <h3>基于 TypeScript </h3>
-          <p>源代码采用 TypeScript 书写（非严格检查）</p>
+          <p>源代码采用 TypeScript 书写</p>
         </li>
         <li>
           <svg>
@@ -47,22 +47,33 @@
 </script>
 
 <style lang="scss" scoped>
-$green: #02bcb0;
+$green: #eb5c4c;
 $border-radius: 4px;
-$color: #007974;
+$color: #fff;
 .topnavAndBanner {
-  background: linear-gradient(145deg, rgba(227, 255, 253, 1) 0%, rgba(183, 233, 230, 1) 100%);
+  background: linear-gradient(183deg, rgba(255,162,27,1) 0%, rgba(255,211,159,1) 100%);
   clip-path: ellipse(100% 60% at 50% 40%);
 
 }
 .features {
-  margin: 64px auto;
-  width: 400px;
+  margin: 10px auto;
+  padding: 0 16px;
   @media (min-width: 800px) {
     width: 800px;
+    >ul {
+
+      >li {
+        width: 50%;
+      }
+    }
   }
   @media (min-width: 1200px) {
     width: 1200px;
+    >ul {
+      >li {
+        width: 33.3333%;
+      }
+    }
   }
   >ul {
     display: flex;
@@ -71,21 +82,22 @@ $color: #007974;
       width: 400px;
       margin: 16px 0;
       display: grid;
-      justify-content: start;
+      justify-content: center;
       align-content: space-between;
       grid-template-areas:
         "icon title"
         "icon text";
       grid-template-columns: 80px auto;
       grid-template-rows: 1fr auto;
+      margin-right: -15px;
       >svg {
         grid-area: icon;
-        width: 64px;
-        height: 64px;
+        width: 56px;
+        height: 56px;
       }
       >h3 {
         grid-area: title;
-        font-size: 28px;
+        font-size: 20px;
       }
       >p {
         grid-area: text
