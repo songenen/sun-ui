@@ -38,6 +38,7 @@ export default {
 $color: #ce7000;
 
 .topnav {
+
   background: #ffa31d;
   color: $color;
 
@@ -47,7 +48,7 @@ $color: #ce7000;
   top: 0;
   left: 0;
   width: 100%;
-  z-index: 10;
+  z-index: 20;
   justify-content: center;
   align-items: center;
 
