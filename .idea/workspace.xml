@@ -19,9 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="dist部署到了">
-      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+    <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tab.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tab.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/Tabs.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/Tabs.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,14 +91,7 @@
       <workItem from="1600575148057" duration="10530000" />
       <workItem from="1600656861590" duration="4977000" />
       <workItem from="1600951612425" duration="1916000" />
-      <workItem from="1601004872980" duration="4446000" />
-    </task>
-    <task id="LOCAL-00015" summary="hover后右滚">
-      <created>1600167319647</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1600167319647</updated>
+      <workItem from="1601004872980" duration="5441000" />
     </task>
     <task id="LOCAL-00016" summary="添加点击">
       <created>1600168198537</created>
@@ -435,7 +429,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601007142773</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="dist 添加一键部署deploy">
+      <created>1601009714232</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1601009714233</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -458,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="优化3" />
     <MESSAGE value="完成Tabs组件" />
     <MESSAGE value="更改背景颜色" />
     <MESSAGE value="引入iconfont图标" />
@@ -483,7 +483,8 @@
     <MESSAGE value="基本完成" />
     <MESSAGE value="去掉idea" />
     <MESSAGE value="整改1" />
-    <option name="LAST_COMMIT_MESSAGE" value="整改1" />
+    <MESSAGE value="dist 添加一键部署deploy" />
+    <option name="LAST_COMMIT_MESSAGE" value="dist 添加一键部署deploy" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="232" key="#Notifications" timestamp="1600608085132">
@@ -494,10 +495,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="739" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600611083339" />
-    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1601009193303">
+    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1601009713652">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601009193303" />
+    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601009713652" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1601009181882">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
