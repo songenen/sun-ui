@@ -1,6 +1,8 @@
 {
   "name": "sun-ui",
   "version": "0.0.0",
+  "files": ["dist/lib/*"],
+  "main": "dist/lib/sun.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build"
