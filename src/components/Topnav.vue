@@ -58,7 +58,11 @@ $color: #ce7000;
     >img {
       width: 48px;
       height: 48px;
-      margin-left: 55px;
+    }
+  }
+  @media (min-width: 500px) {
+    > .logo > img{
+      margin-right: -60px;
     }
   }
 

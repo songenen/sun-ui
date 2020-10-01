@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="修复在Vue3正式版中的bug">
+    <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Topnav.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Topnav.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,14 +90,12 @@
       <workItem from="1600575148057" duration="10530000" />
       <workItem from="1600656861590" duration="4977000" />
       <workItem from="1600951612425" duration="1916000" />
-      <workItem from="1601004872980" duration="11481000" />
-    </task>
-    <task id="LOCAL-00025" summary="支持theme属性">
-      <created>1600355802806</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1600355802806</updated>
+      <workItem from="1601004872980" duration="13500000" />
+      <workItem from="1601289599593" duration="64000" />
+      <workItem from="1601289679594" duration="7000" />
+      <workItem from="1601289701034" duration="63000" />
+      <workItem from="1601551541891" duration="18000" />
+      <workItem from="1601551562247" duration="277000" />
     </task>
     <task id="LOCAL-00026" summary="size 属性">
       <created>1600400000671</created>
@@ -437,7 +433,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601015018626</updated>
     </task>
-    <option name="localTasksCounter" value="74" />
+    <task id="LOCAL-00074" summary="使用script setup">
+      <created>1601017594580</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1601017594580</updated>
+    </task>
+    <option name="localTasksCounter" value="75" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -460,7 +463,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="添加选中高亮" />
     <MESSAGE value="填充文本内容" />
     <MESSAGE value="添加支持markdown写法" />
     <MESSAGE value="SwitchDemo.vue css添加" />
@@ -485,7 +487,8 @@
     <MESSAGE value="更新package.json" />
     <MESSAGE value="npm 发布0.0.0" />
     <MESSAGE value="修复在Vue3正式版中的bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复在Vue3正式版中的bug" />
+    <MESSAGE value="使用script setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="使用script setup" />
   </component>
   <component name="WindowStateProjectService">
     <state x="737" y="232" key="#Notifications" timestamp="1600608085132">
@@ -496,10 +499,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="739" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600611083339" />
-    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1601016122078">
+    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1601017594017">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601016122078" />
+    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601017594017" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1601015171483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -516,17 +519,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="607" y="131" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1600355805163" />
-    <state x="575" y="148" width="598" height="528" key="find.popup" timestamp="1601005125618">
+    <state x="575" y="148" width="598" height="528" key="find.popup" timestamp="1601551671704">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="575" y="148" width="598" height="528" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601005125618" />
+    <state x="575" y="148" width="598" height="528" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601551671704" />
     <state x="668" y="189" key="run.anything.popup" timestamp="1600608970563">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="668" y="189" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1600608970563" />
-    <state x="678" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1601011139039">
+    <state x="678" y="146" width="672" height="678" key="search.everywhere.popup" timestamp="1601551667250">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="678" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601011139039" />
+    <state x="678" y="146" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1601551667250" />
   </component>
 </project>
