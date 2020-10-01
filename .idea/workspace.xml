@@ -21,6 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="6a717bbe-bba3-4e72-a7ad-fb33ca4fb32d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button2.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button2.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button3.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button3.demo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tabs1.demo.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,14 +97,7 @@
       <workItem from="1601289679594" duration="7000" />
       <workItem from="1601289701034" duration="63000" />
       <workItem from="1601551541891" duration="18000" />
-      <workItem from="1601551562247" duration="894000" />
-    </task>
-    <task id="LOCAL-00027" summary="theme+size css">
-      <created>1600400292677</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1600400292677</updated>
+      <workItem from="1601551562247" duration="1849000" />
     </task>
     <task id="LOCAL-00028" summary="添加level属性">
       <created>1600400461117</created>
@@ -439,7 +435,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601552127677</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="update">
+      <created>1601552460383</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1601552460383</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TerminalProjectNonSharedOptionsProvider">
@@ -498,10 +501,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="739" y="207" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1600611083339" />
-    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1601552126756">
+    <state x="617" y="0" key="CommitChangelistDialog2" timestamp="1601552459465">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601552126756" />
+    <state x="617" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1601552459465" />
     <state x="294" y="65" key="DiffContextDialog" timestamp="1601015171483">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
