@@ -1,7 +1,7 @@
 <template>
   <div class="topnav">
     <router-link to="/" class="logo">
-      <img src="../assets/sun.svg" >
+      <img src="../assets/sun.svg">
     </router-link>
     <ul class="menu">
       <li>
@@ -38,10 +38,8 @@ export default {
 $color: #ce7000;
 
 .topnav {
-
   background: #ffa31d;
   color: $color;
-
   display: flex;
   padding: 5px 16px;
   position: fixed;
@@ -55,13 +53,15 @@ $color: #ce7000;
   > .logo {
     max-width: 6em;
     margin: 0 auto;
-    >img {
+
+    > img {
       width: 48px;
       height: 48px;
     }
   }
+
   @media (min-width: 500px) {
-    > .logo > img{
+    > .logo > img {
       margin-right: -60px;
     }
   }
@@ -87,9 +87,15 @@ $color: #ce7000;
   }
 
   @media (max-width: 500px) {
-    > .menu {display: none;}
-    > .logo {margin: 0 auto;}
-    > .toggleAside { display: inline-block;}
+    > .menu {
+      display: none;
+    }
+    > .logo {
+      margin: 0 auto;
+    }
+    > .toggleAside {
+      display: inline-block;
+    }
   }
 }
 </style>
